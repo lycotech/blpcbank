@@ -25,42 +25,42 @@ export const SidebarData = [
   },
   {
     icon: UilClipboardAlt,
-    heading: "Orders",
+    heading: "Deposit",
   },
   {
     icon: UilUsersAlt,
-    heading: "Customers",
+    heading: "Withdraw",
   },
   {
     icon: UilPackage,
-    heading: 'Products'
+    heading: 'Target Saving'
   },
   {
     icon: UilChart,
-    heading: 'Analytics'
+    heading: 'Reports'
   },
 ];
 
 // Analytics Cards Data
 export const cardsData = [
   {
-    title: "Sales",
+    title: "Total Saving",
     color: {
       backGround: "linear-gradient(180deg, #bb67ff 0%, #c484f3 100%)",
       boxShadow: "0px 10px 20px 0px #e0c6f5",
     },
     barValue: 70,
-    value: "25,970",
+    value: "250,970",
     png: UilUsdSquare,
     series: [
       {
-        name: "Sales",
+        name: "Total Saving",
         data: [31, 40, 28, 51, 42, 109, 100],
       },
     ],
   },
   {
-    title: "Revenue",
+    title: "Total Sitting",
     color: {
       backGround: "linear-gradient(180deg, #FF919D 0%, #FC929D 100%)",
       boxShadow: "0px 10px 20px 0px #FDC0C7",
@@ -70,13 +70,13 @@ export const cardsData = [
     png: UilMoneyWithdrawal,
     series: [
       {
-        name: "Revenue",
+        name: "Total Sitting",
         data: [10, 100, 50, 70, 80, 30, 40],
       },
     ],
   },
   {
-    title: "Expenses",
+    title: "Target Saving",
     color: {
       backGround:
         "linear-gradient(rgb(248, 212, 154) -146.42%, rgb(255 202 113) -46.42%)",
